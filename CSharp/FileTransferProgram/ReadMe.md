@@ -1,16 +1,16 @@
 ##File Transfer Program
 ___
-###Objective
+### Objective
 Build a C# program that:
 * Moves files from one folder to another if they have been modified within 24 hours.
 * Has methods separate from the main method, whose functions are called from within the main method. 
 
-###Steps Taken
+### Steps Taken
 * Used C# in Visual Studio 2015 and the System.IO namespace.
 * Made a method that moves files if changed within 24 h.
 * Made methods that ask for source and destination directories.
 
-###Results
+### Results
 * The program was successful, and I better understand the use of static, void, and calling methods.
 * Until I noticed the second objective, I had the "move" method within the main method, so I brought that out and called it from the main method.
 * I built get-directory methods to give more functionality and so that I would have more methods to call within the main method.
