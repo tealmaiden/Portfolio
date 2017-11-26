@@ -1,12 +1,12 @@
-##Horror Game Project
+## Horror Game Project
 The Tech Academy gives students a final team project to work on called a Live Project. In it, students contribute towards a software product for a real client while practicing Scrum methodologies. My experience joining an ongoing project is described below.
 ___
-###Objective
+### Objective
 
 1. Contribute toward a JavaScript-based story-driven horror game in a 2-week sprint.
 2. Complete and attend daily standups, planning meetings, sprint reviews, and storytimes.
 
-###Steps Taken
+### Steps Taken
 
 1. Familiarized myself with what had already been produced. To improve my understanding, I asked questions and reviewed learning resources in JavaScript and Bootstrap.
 2. Was given a suggested task to repeat a set of code that would ensure a time delay would be maintained when the page was refreshed.
@@ -15,7 +15,7 @@ ___
 5. Made a function that automatically calculated time delay. (The value for time delay had been manually counted for each step of the story before.)
 6. Completed the teamwork and attendance requirements. Gave consistent updates on my progress via email and the meetings. 
 
-###Results
+### Results
 
 * My fixes for the problems in step 4 worked.
 * My team is now aware of the problem in step 3.
