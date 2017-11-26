@@ -1,6 +1,6 @@
-##Demo Series Drill
+## Demo Series Drill
 ___
-###Objective
+### Objective
 
 Create classes and methods that demonstrate:
 
@@ -22,11 +22,11 @@ Show also the retrieval of the object from that file and conversion back to its 
 15. Creation and use of nullable types
 16. Creation and use of an Enumerable
 
-###Steps Taken
+### Steps Taken
 * A program was made for each demonstration requested.
 * Sources of aid are listed at the end of the files. 
 * See my coursework repository for example 10 of [serialization and deserialization], made following a tutorial.
 [serialization and deserialization]: https://github.com/rebeccapizano/Coursework/tree/master/CSharp/SerializationDeserialization
 
-###Result
+### Result
 * Each program works and is listed as the name of the example.
