@@ -1,7 +1,7 @@
-##Shopify Theme Edits
+## Shopify Theme Edits
 My Shopify store uses the [Venture](https://themes.shopify.com/themes/venture/styles/outdoors) theme. I wanted to make some changes to the store that I couldn't do through the built-in user interface, so I learned how to access the theme code, learned how the Liquid templating engine worked, and made some manual edits. Results are shown at the bottom.
 ___
-###Objective
+### Objective
 Make the following edits to my Shopify store by editing the code directly:
 
 1. Center the website title/logo in the header.
@@ -12,7 +12,7 @@ Make the following edits to my Shopify store by editing the code directly:
 The following image, showing the [Venture](https://themes.shopify.com/themes/venture/styles/outdoors) theme preview, illustrates 2 of the main changes I wanted to make:
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/plan.png)
 
-###Steps Taken
+### Steps Taken
 * Tried to make the changes through the built-in interface, but it didn't appear there was a way to do so.
 * Found where the theme code was stored to make the changes manually. In the edit themes section, there's a dropdown to edit code.
 * Liquid was unfamiliar to me. There are also many theme code files that are many pages long. 
@@ -82,7 +82,7 @@ The main way I did so was by right-clicking and inspecting elements of the page,
         padding-bottom: $gutter-site / 4;
     ```
   
-###Results
+### Results
 1. Centering and adjusting header elements:
    * Comparison for large screens:<br>
    ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/HTML-CSS/ShopifyThemeEdits/pics/largeCompED.jpg)
