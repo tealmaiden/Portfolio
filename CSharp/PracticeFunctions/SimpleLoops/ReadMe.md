@@ -1,13 +1,13 @@
-##Simple Loops
+## Simple Loops
 
 ___
-###Objective
+### Objective
 * Create a starcaise with # signs.
 * Create a reverse staircase with # signs and constraints.
 * Create a funtion that displays integers up the the number entered.
 * Call them from one file.
 
-###Steps Taken
+### Steps Taken
 
 **Count Loop**
 * Wrote a for loop that incrementally writes lines with increasing numbers signs up to the number (n) entered by the user.
@@ -35,6 +35,6 @@ ___
 * Used the internal access modifier on each function so that they could be called from another file in the project.
 * Created a file Program.cs which called the functions.
 
-###Results
+### Results
 * Learned how to call functions from other classes and class files.
 * Got practice on making different types of loops.
