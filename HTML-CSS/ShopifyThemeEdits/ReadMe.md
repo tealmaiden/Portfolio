@@ -62,14 +62,12 @@ The main way I did so was by right-clicking and inspecting elements of the page,
 * Added an image to the contact page. 
     1. In page.contact.liquid, changed grid to grid--table.
     2. Added image (hidden for small window size) by adding:
-    ```<div class="grid__item small--hide medium-up--one-half" id=verticalTop>
-    <img src="[path to image file]" alt=""></img>
-    </div>
+    ```
+    <div class="grid__item small--hide medium-up--one-half" id=verticalTop> <img src="[path to image file]" alt=""></img></div>
     ```
     3. In theme.scss.liquid, changed image vertical alignment from middle to top:
-    ``` #verticalTop {
-        vertical-align: top;
-        }   
+    ```
+    #verticalTop {vertical-align: top;}   
     ```
     4. Re-used verticalTop ID tag for the contact form and other items around the site that needed to stick to the top.
 * Shrank the padding around the top and bottom of the title/logo. Changed from / 2 to / 4:
