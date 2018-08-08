@@ -9,7 +9,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/879u8b/20180326_challenge_355_
 ### Encryption
 Drew out on paper how the encoding mechanism worked to better understand how it could be translated into code.
 
-I determined that one way to look at the result is to see it as the index in the alphabet that is the of a the indices of each expanded key character and message character in a loop across the alphabet.
+Determined that one way to look at the result is to see it as the index in the alphabet that is the of a the indices of each expanded key character and message character in a loop across the alphabet.
 
 Being new to C++, I drafted what I would do in a familiar .NET language, C#, and converted using MSDN as a resource. This is why the sytax in my program relies on the System::String library rather than std::string standard C++ library. 
 
@@ -23,4 +23,4 @@ Created console input functions to collect user key and message. Console display
 ## Results
 The program works as expected. 
 It won't work if key is longer than message, but that can be easily changed.
-The ext step would be a decryption algorithm, which I had forgotten about until now.
+The next step would be a decryption algorithm, which I had forgotten about until now.
