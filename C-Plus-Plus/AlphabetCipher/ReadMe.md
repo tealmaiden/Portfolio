@@ -15,7 +15,7 @@ Being new to C++, I drafted what I would do in a familiar .NET language, C#, and
 
 To use the key word, it needed to be repeated across the length of the message, so I made a function that repeated the key word until it was the same length as the message. 
 
-Made loops that added the alphabet indices of key and message characters if the sum was less than 26 and some subtraction math if the sum was the same or greater.
+Made loops that added the alphabet indices of key and message characters if the sum was less than 26 and the sum minus 26 if the sum was the same or greater.
 
 Created console input functions to collect user key and message. Console displays the result.
 
