@@ -30,7 +30,7 @@ int main()
 	{
 		cout << "sort ascending: " << *(p + i) << endl;
 	}
-	//output the sorted array ascending: descending
+	//output the sorted array descending:
 	for (i = 9; i >= 0; i--)
 	{
 		cout << "sort descending: " << *(p + i) << endl;
