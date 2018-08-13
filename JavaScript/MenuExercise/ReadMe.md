@@ -1,11 +1,11 @@
-## News Page Styling with JavaScript and CSS Tools
+# News Page Styling with JavaScript and CSS Tools
 ___
-### Objective
+## Objective
 * Using JavaScript, on a news page created previously, add a menu of 3-4 items that extends downward when rolled over with a mouse.
 * Learn Lighbox and use it to add images to the page.
 * Learn Bootstrap and use it to enhance the page.
 
-### Steps Taken
+## Steps Taken
 * Previously made the original static HTML and CSS following a tutorial on LittleWebHut.com at this [link]. An image of this page is included as "before.png" in the beforeAfterPics folder.
 * My coding additions for this project are contained in first.html, style.css, and news.js.
 * Made "JS Menu" using mouseenter and mouseleave functions in news.js.
@@ -19,7 +19,7 @@ ___
 
 [link]: http://www.littlewebhut.com/html5/css_layout/
 [website]: http://lokeshdhakar.com/projects/lightbox2/
-### Results
+## Results
 All items I added worked. Through this project I learned:
 * How Bootstrap and Lightbox work, and how to use them.
 * How to create menu dropdowns using 3 different methods.
@@ -31,11 +31,11 @@ AllFiles.zip is a compressed folder containing all files to view the page. In ad
 
 Below are images before and after my changes: 
 
-#### Before:</br>
+### Before:</br>
 
 ![alt text](https://github.com/rebeccapizano/Portfolio/blob/master/JavaScript/MenuExercise/beforeAfterPics/before.PNG)
 
-#### After: </br>
+### After: </br>
 
 * Whole Page:
 
