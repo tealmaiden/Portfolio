@@ -1,0 +1,64 @@
+using System;
+
+namespace Lambdas
+{
+    //use lambdas to do the same thing as in the Events challenge:
+    //allow user to enter positive and negative amounts
+    //track that amount in piggy bank
+    //display the new amount after each entry
+    //when the amount reaches or exceeds 500, display a message like "you've reached your goal"
+
+    public delegate void balanceChangeEventHandler(decimal amount);
+    class PiggyClass
+    {
+        private decimal piggyAmount;
+        public event balanceChangeEventHandler amountChanged;
+
+        public decimal amount
+        {
+            get { return piggyAmount; }
+            set
+            {
+                this.piggyAmount = value;
+                this.amountChanged(piggyAmount);
+            }
+        }
+    }
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            PiggyClass piggyClass = new PiggyClass();
+
+            piggyClass.amountChanged += (x) =>
+            {
+                Console.WriteLine("the balance amount is {0}", x);
+            };
+            piggyClass.amountChanged += (x) =>
+            {
+                if (x >= 500)
+                {
+                    Console.WriteLine("You have reached your goal. You have ${0}.", x);
+                    
+                }
+            };
+
+            string entry;
+            do
+            {
+                Console.WriteLine("how much to deposit? ");
+                entry = Console.ReadLine().ToLower();
+
+                if (entry != "exit")
+                {
+                    decimal amountEntered = decimal.Parse(entry);
+                    piggyClass.amount += amountEntered;
+                }
+            } while (entry != "exit");
+        }
+
+
+    }
+}
