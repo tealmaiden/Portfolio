@@ -1,8 +1,6 @@
 # Shopify Liquid JS Bug
 
-I had previously customized product pages in a Shopify store to update the selected variant when it's thumbnail image was selected, here. The thumbnail images are contained in a slider carousel that show 3 images at once and use arrows to scroll.
-The customization worked, but sometimes when an image was clicked, the carousel would revert unpredictably to the top. For some products with many variants, this would happen with every image, which made it incredibly annoying to select a product by clicking the image in these cases.
-This was probably caused by some default navigation function that was either faulty now or wasn't compatible with the new change. This was very discouraging.
+I had previously customized product pages in a Shopify store to update the selected variant when it's thumbnail image was selected, [here](https://github.com/rebeccapizano/Coursework/tree/master/Shopify-Liquid/ClickImageToSelectProduct). The thumbnail images are contained in a slider carousel that show 3 images at once and use arrows to scroll. The customization worked, but sometimes when an image was clicked, the carousel would revert unpredictably to the top. For some products with many variants, this would happen with every image, which made it incredibly annoying to select a product by clicking the image in these cases. This was probably caused by some default navigation function that was either faulty now or wasn't compatible with the new change. This was very discouraging.
 ___
 ## Objective
 Fix the navigation function so that it doesn't move at all when an image is clicked. Only the arrows should reposition the slider.
