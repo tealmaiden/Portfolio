@@ -11,7 +11,7 @@ namespace NullableTypes
             string name = null;
 
             //Default value for value types is 0:
-            //int i = null; (can't so this fpr example)
+            //int i = null; (can't do this for example)
 
             //To make value types nullable, use ?:
             int? i = null;
