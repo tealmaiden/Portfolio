@@ -12,7 +12,7 @@ namespace Enumerables
         {
             customer[] customers = new customer[3];
 
-            //Replacing numbers with Gender.X. Now it is easier to tell that 1 means male etc:
+            //Instead of using numbers to distinguish male/female, can just use Gender.Male/Female, so it is harder to mix up:
             customers[0] = new customer
             {
                 name = "mark",
