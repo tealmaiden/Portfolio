@@ -1,6 +1,6 @@
 # Heaven Login Page
 
-A screenshot is shown at the bottom. I have since expanded on this project with JavaScript [here](https://github.com/rebeccapizano/Portfolio/edit/master/JavaScript/LoginPage/ReadMe.md), where I added email validation and other features. 
+A screenshot is shown at the bottom. I have since expanded on this project with JavaScript [here](https://github.com/rebeccapizano/Portfolio/edit/master/JavaScript/LoginPage/ReadMe.md), where I added email validation and other features. If you're using a VPN, the images may not show.
 ___
 ## Objective
 Create a login page using HTML5 and CSS3.
