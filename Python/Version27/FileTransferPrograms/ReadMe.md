@@ -3,8 +3,8 @@
 ___
 ## Objective
 * Create a program that transfers files if they have been modified within 24 hours.
-* Build off this program to create another program that does the same, but with a graphical user interface where the user can select folders to choose from.
-* Build off this program to create another program that does the same, but displays the date and time of the last check.
+* Create another program that does the same, but with a graphical user interface where the user can select folders to choose from.
+* Create another program that does the same, but displays the date and time of the last check.
 
 ## Steps Taken
 * Built drillP67, which moves text files from one folder to another if they have been modified within 24 hours. The source and destination folders must be selected by editing lines in the program. It utilizes the shutil package. 
