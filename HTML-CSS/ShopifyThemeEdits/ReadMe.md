@@ -1,8 +1,8 @@
 # Shopify Theme Edits
-My Shopify store uses the [Venture](https://themes.shopify.com/themes/venture/styles/outdoors) theme. I wanted to make some changes to the store that I couldn't do through the built-in user interface, so I learned how to access the theme code, learned how the Liquid templating engine worked, and made some manual edits. Results are shown at the bottom.
+I wanted to make some changes to a Shopify store that I couldn't do through the built-in user interface, so I learned how to access the theme code, learned how the Liquid templating engine worked, and made some manual edits. Results are shown at the bottom.
 ___
 ## Objective
-Make the following edits to my Shopify store by editing the code directly:
+Make the following edits to Shopify store by editing the code directly:
 
 1. Center the website title/logo in the header.
 2. Move down the collection links on the front page so that they don't overlap with the front image ("hero image").
