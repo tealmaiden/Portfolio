@@ -21,3 +21,7 @@ Postings are the result of projects or homework assignments that required indepe
 ## C#
 * Built a series of [apps](https://github.com/rebeccapizano/Portfolio/tree/master/CSharp/ConsoleApps) that demonstrated the basic use of different objects and features in C#.
 * Built [practice functions](https://github.com/rebeccapizano/Portfolio/tree/master/CSharp/PracticeFunctions) in response to common challenges.
+
+## C++
+* Created a program that served as a [vignere cipher](https://github.com/SireneNova/Portfolio/tree/master/C-Plus-Plus/AlphabetCipher).
+* Made a simple input/output (program)[https://github.com/SireneNova/Portfolio/tree/master/C-Plus-Plus/SimpleIOExercise].
