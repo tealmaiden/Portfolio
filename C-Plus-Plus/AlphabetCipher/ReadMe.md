@@ -9,7 +9,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/879u8b/20180326_challenge_355_
 ### Encryption
 Drew out on paper how the encryption mechanism worked to better understand how it could be translated into code.
 
-Determined that one way to look at the result is to see it as the index in the alphabet that is the sum of a the indices of each expanded key character and message character in a loop across the alphabet.
+Determined that one way to look at the result is to see it as the index in the alphabet that is the sum of the indices of each expanded key character and message character in a loop across the alphabet.
 
 Being new to C++, I drafted what I would do in a familiar .NET language, C#, and converted using MSDN as a resource. This is why the sytax in my program relies on System::String from the .NET library rather than std::string standard C++ library. 
 
