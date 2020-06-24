@@ -24,4 +24,4 @@ Postings are the result of projects or homework assignments that required indepe
 
 ## C++
 * Created a program that served as a [vignere cipher](https://github.com/SireneNova/Portfolio/tree/master/C-Plus-Plus/AlphabetCipher).
-* Made a simple input/output [program](https://github.com/SireneNova/Portfolio/tree/master/C-Plus-Plus/SimpleIOExercise).
+* Made a simple [input/output](https://github.com/SireneNova/Portfolio/tree/master/C-Plus-Plus/SimpleIOExercise) program.
