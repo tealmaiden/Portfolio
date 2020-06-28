@@ -3,8 +3,8 @@
 ___
 ## Objective
 * Create a program that generates a basic webpage with text.
-* Create an interface that allows the user to customize what is written on the page.
-* Create a backend database that saves previous entries into a selection list from which page text can be chosen.
+* Create another program like this, but with an interface that allows the user to customize what is written on the page.
+* Create another program like this, but with a backend database that saves previous entries into a selection list from which page text can be chosen.
 
 ## Steps Taken
 * Wrote a python file that opens a basic web page (P70Drill-webPage).
