@@ -17,7 +17,5 @@ public class ReverseStairs
         {
             Console.WriteLine("\n  Retry and enter a number between 1 and 100.");
         }
-
-    }
-    
+    }    
 }
