@@ -66,10 +66,7 @@ namespace Test
                     Console.WriteLine("Exception caught: {0}", e);
                     Console.WriteLine("\n Enter a number");                    
                 }
-
-            }          
-            
-
+            }
         }
     }
 }
