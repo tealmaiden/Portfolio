@@ -3,8 +3,7 @@
 namespace TryCatchFinally
 {
     class TryFinallyTest
-    {
-        
+    {        
         static void ProcessString(string s)
         {
             if (s == "test")
@@ -31,7 +30,6 @@ namespace TryCatchFinally
             {
                 Console.WriteLine("finally");
             }
-
         }
     }
 }
