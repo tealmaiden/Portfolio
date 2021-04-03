@@ -1,2 +1,2 @@
-String Formatting: string.Format("{0:" + formatString + "}", value)
+String Formatting: string.Format("{0:" + formatString + "}", value) <br>
 console formatting: Console.WriteLine("{0:0.0}", value); // writes a numerical value to one decimal place
