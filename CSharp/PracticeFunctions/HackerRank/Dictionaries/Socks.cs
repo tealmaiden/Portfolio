@@ -15,7 +15,7 @@ public class Program
 		}
 
 		Dictionary<int, int> pairs = new Dictionary<int, int>();
-		foreach(KeyValuePair<int, int> color in socks)
+		foreach(KeyValuePair<int, int> color in socks) //can also use "var color" instead of "KeyValuePair<int, int> color"
 		{
 		    int key  = color.Key;
 		    int numColors = socks[key];
@@ -34,7 +34,7 @@ public class Program
 
 	public static void Main()
 	{
-		int [] ar = {1,2,3,1,2,3,1,1,3,3,4};
-		Console.WriteLine(sockMerchant(ar));
+		int [] sockAray = {1,2,3,1,2,3,1,1,3,3,4};
+		Console.WriteLine(sockMerchant(sockArray));
 	}
 }
