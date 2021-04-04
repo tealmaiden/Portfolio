@@ -35,6 +35,6 @@ public class Program
 	public static void Main()
 	{
 		int [] sockAray = {1,2,3,1,2,3,1,1,3,3,4};
-		Console.WriteLine(sockMerchant(sockArray));
+		Console.WriteLine(sockMerchant(sockArray)); //returns 5
 	}
 }
