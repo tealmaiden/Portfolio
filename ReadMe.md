@@ -1,6 +1,6 @@
 # Portfolio
 ___
-Postings are the result of projects or homework assignments that required independent creation of code, however simple. This differs from my Coursework repository, which contains work created by following steps. Some highlights are listed below.
+Postings are the result of projects or homework assignments that required independent creation of code, however simple. This differs from my Coursework repository, which contains work created by following steps. Some highlights are listed below. I changed my name some time ago, so if you see a different name in here, that's still me.
 
 ## Python
 * Built a dynamic [graphical sale viewer](https://github.com/rebeccapizano/Portfolio/tree/master/Python/Version27/SaleViewer) that imports data from a csv.
