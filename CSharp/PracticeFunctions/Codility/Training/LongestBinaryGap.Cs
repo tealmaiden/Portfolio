@@ -33,9 +33,9 @@ class Solution {
                 {
                     ends1=true;
                     if (temp>longest)
-			{
-				longest= temp;
-			}
+		    {
+			    longest= temp;
+		    }
                     temp = 0;
                 }       
             }
@@ -63,4 +63,8 @@ class Solution {
         }
         return longest;
     }
+	public static void Main(string[] args) 
+	{
+		Console.WriteLine("longest: " + solution(49844));
+	}
 }
