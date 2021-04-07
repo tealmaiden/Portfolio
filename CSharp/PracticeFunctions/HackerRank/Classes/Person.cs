@@ -17,7 +17,7 @@ class Person
         this.age = newAge;             
     }
     
-    //Set starting age:
+    //Constructor that initializes age:
     public Person(int initialAge) 
     {
         if(initialAge>0)
