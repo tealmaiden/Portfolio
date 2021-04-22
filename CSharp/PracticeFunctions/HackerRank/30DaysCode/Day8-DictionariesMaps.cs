@@ -14,7 +14,7 @@ class Solution
                 contactdictionary.Add(contacts[0], contacts[1]);
             }           
         }
-        //int ntries=10^5;
+
         while (true)
         {
             try
@@ -32,10 +32,7 @@ class Solution
             catch(Exception e)
             {
                 break;
-            }
-            
-            //ntries-=1;
-            
+            }           
         }
     }
 }
