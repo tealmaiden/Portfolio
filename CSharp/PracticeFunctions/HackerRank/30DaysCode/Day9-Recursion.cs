@@ -22,7 +22,7 @@ class Solution {
         }
         else
         {
-            return n* factorial(n-1);
+            return n * factorial(n-1);
         }
     }
 
