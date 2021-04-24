@@ -11,7 +11,7 @@ class Difference {
         elements = e;
     }
     
-	public int computeDifference()
+    public int computeDifference()
     {
         for(int i=0; i < elements.Length; i++)
         {            
