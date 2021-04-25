@@ -18,7 +18,7 @@ class Person{
 }
 
 class Student : Person{
-    private int[] testScores {get;set;}
+    private int[] testScores; // {get;set;}
     /*	
     *   Class Constructor
     *   
