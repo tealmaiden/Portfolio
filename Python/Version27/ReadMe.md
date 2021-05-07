@@ -1,3 +1,3 @@
-# Python - Version2.7
+# Python - Version2+
 ___
 Each project is described within each folder.
