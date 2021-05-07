@@ -1,5 +1,5 @@
 # Alien Drill
-
+12-28-2016
 ___
 ## Objective
 * Create a is a database of alien and human information in Python using SQLite. 
