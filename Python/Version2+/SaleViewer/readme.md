@@ -1,4 +1,5 @@
 # Sale Viewer
+7-10-2016
 ---
 The final practical exercise in a Python course was to create a program of your own design. I chose to create a dynamic sale viewer, inspired by a shop owner who had wanted to view her sales per store side-by-side when her software didn't allow her to.
 
