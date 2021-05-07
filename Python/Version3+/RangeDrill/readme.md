@@ -1,5 +1,5 @@
 # Range Drill
-7-12-2016
+7-8-2016
 ___
 ## Objective
 Display ranges in Python as requested in an assignment.
