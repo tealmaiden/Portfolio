@@ -1,4 +1,6 @@
 # Store Opening Time Drill
+5-5-2016
+
 An imaginary scenario where there is a store headquartered in Portland has branches in New York and London. You want to see whether each branch is open at a given time. Store hours are 9am-9pm.
 ___
 ## Objective
