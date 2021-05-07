@@ -1,5 +1,5 @@
 # Range Drill
-
+## 8-13-2018
 ___
 ## Objective
 Display ranges in Python as requested in an assignment.
@@ -11,5 +11,3 @@ Display ranges in Python as requested in an assignment.
 * What can be confusing at first about forward-stepping ranges is that the endpoint is always counted from a start of 0, so the range ends at a number behind the specified endpoint. 
 * Similar logic applies to backward-stepping ranges, only counting down. This can also be confusing. The starting point is displayed as specified, and the range ends at a number larger than the specified endpoint.
 
-
-8-13-2018
