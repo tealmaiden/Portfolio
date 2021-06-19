@@ -22,4 +22,4 @@ Combine raw SNP data without duplicates into a single text file.
 8. Joined the consolidated dataset lines with tabs and wrote the results to a new text file separated by newlines.
 
 ## Results
-A consolidated text file of data was produced which was larger than both parent files. There were 467876 duplicates avoided.
+A consolidated text file of data was produced which was larger than both parent files (23andme had 963049 lines of data, Ancestry had 677864, and combined  result had 1173037). There were 467876 duplicates recorded, which is consistent with the result file size.
