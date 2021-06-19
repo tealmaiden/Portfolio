@@ -14,7 +14,6 @@ for line in data[1:]:
         rsDict[rs] = 1
 
 opened_file = open("AncestryRight.txt")
-from csv import reader
 read_file = reader(opened_file, dialect="excel-tab")
 dataAncestry = list(read_file)
 
