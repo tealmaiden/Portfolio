@@ -23,3 +23,5 @@ Combine raw SNP data without duplicates into a single text file.
 
 ## Results
 A consolidated text file of data was produced which was larger than both parent files (23andme had 963049 lines of data, Ancestry had 677864, and combined  result had 1173037). There were 467876 duplicates recorded, which is consistent with the result file size.
+
+The file was successfully submitted to InsideTracker, however their gene analysis isn't that detailed or useful, so just submitting one probably would not have made a difference.
