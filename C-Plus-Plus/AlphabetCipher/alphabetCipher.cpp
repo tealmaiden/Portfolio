@@ -47,6 +47,3 @@ using namespace System::Collections;
 		Console::WriteLine(encrypt(message, key));
 		return 0;
 	}
-
-
-
