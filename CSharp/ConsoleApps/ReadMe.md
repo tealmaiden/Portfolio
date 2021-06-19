@@ -1,6 +1,6 @@
 ## Demo Series Drill
 ___
-6-10-16
+6-10-2016
 
 ### Objective
 
