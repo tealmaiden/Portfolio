@@ -2,8 +2,8 @@
 6-19-2021
 
 ## Background
-Commercial genetic testing services like 23andme and Ancestry.com don't conduct their analyses by sequencing your entire genome. At the time of this writing, this isn't quite technologically feasible yet.
-Instead these services search for a large number of known sequences called single nucleotide polymorphisms (SNPs), which are associated with a genotype (AA, GG, AG, CT, CC, etc.).
+Commercial genetic testing services like 23andme and Ancestry.com don't conduct their analyses by sequencing your entire genome. At the time of this writing, this isn't technologically feasible yet.
+Instead, these services search for a large number of known sequences called single nucleotide polymorphisms (SNPs), which are associated with a genotype (AA, GG, AG, CT, CC, etc.).
 Different testing services have different sets of SNPs they check for, which may overlap. Your genotype for each SNP tested is recorded in a raw downloadable data file. 
 
 InsideTracker (an external analysis service) allows you to upload your raw data results, but only lets you upload one file. I have test results from both 23andme and Ancestry and wanted to consolidate them for this purpose. This would give me a larger data set to be analyzed.
