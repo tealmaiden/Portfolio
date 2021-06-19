@@ -1,6 +1,6 @@
 ## File Transfer Program
 ___
-12-27-16
+12-27-2016
 
 ### Objective
 Build a C# program that:
