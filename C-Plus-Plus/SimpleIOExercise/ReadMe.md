@@ -1,5 +1,7 @@
 ## Simple IO Exercise
 ___
+3-29-18
+
 ### Objective
 Create a program in C++ that reads an input file and outputs arbitrary information to an output file.
 ### Steps Taken
