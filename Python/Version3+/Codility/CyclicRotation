@@ -1,0 +1,10 @@
+def solution(A, K):
+    N = len(A)
+    B=A.copy()
+    for i in range(N):
+        if (K == N) or (K == 0): 
+            return B
+        if K > N:
+            K = K % N
+        B[i]=A[i-K]
+    return B
