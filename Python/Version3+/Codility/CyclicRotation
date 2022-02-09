@@ -1,3 +1,7 @@
+#Write a function that rotates an array A clockwise by K spaces. This got %100. 
+#The tricky part for me was dealing with input larger than N, which is dealt with by the second conditional. 
+#There are probably other ways to do this, but this is what I came up with.
+
 def solution(A, K):
     N = len(A)
     B=A.copy()
