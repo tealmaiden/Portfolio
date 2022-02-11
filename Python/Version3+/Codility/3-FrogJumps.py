@@ -1,6 +1,7 @@
 # A frog wants to get from point X to point Y, and can jump a fixed distance of D. Find the minimum number of frog jumps given starting point X, end point Y, and jump size D.
 # This solution got 100%. There are a number of other ways to do this.
-# I wasn't sure if codility would let me import the math module, so commented another solution that also seems to work. 
+# I wasn't sure if codility would let me import the math module, so commented another solution that also seems to work, but may not be as efficient. 
+# The point of the exercise was to write an efficient solution such as O(1).
 
 import math
 
