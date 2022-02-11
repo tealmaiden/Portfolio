@@ -1,5 +1,5 @@
-#Given an array of ints A containing duplicates, return the int that does not have any pair. Assume there is only one in the set that doesn't have a pair.
-#This solution got 100%. In addition to accuracy it had a good performance, probably because of the use of a dictionary.
+# Given an array of ints A containing duplicates, return the int that does not have any pair. Assume there is only one in the set that doesn't have a pair.
+# This solution got 100%. In addition to accuracy it had a good performance, probably because of the use of a dictionary.
 
 def solution(A):
 
