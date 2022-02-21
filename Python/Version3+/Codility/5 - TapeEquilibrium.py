@@ -1,6 +1,6 @@
-# The prompt for this is to create a function that returns the minimum difference between the absolute value of any two "halves" of an array when the array is split 
+# The prompt for this is to create a function that returns the minimum difference between the absolute value of any two sections of an array when the array is split 
 # along each consecutive item. 
-# For instance, if given array [3, 10, 45, 1], the function must compare the absolute value of 3 and 56, 13 and 46, 58 and 1 and return the smallest difference.
+# For instance, if given array [3, 10, 45, 1], the function must compare the difference of 3 and 56, 13 and 46, 58 and 1 and return the one of smallest absolute value.
 # The point of this exercise is to make the function efficient. My initial correct answer was not efficient, so I had to figure out what the issue was and correct it.
 # The original is commented below the following final accepted answer:
 
