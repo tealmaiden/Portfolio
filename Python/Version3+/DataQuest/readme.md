@@ -8,3 +8,6 @@ Originally added as a Jupyter notebook 5-07-2021. Switched to a markdown file on
 
 ## NewsPosts.md
 Originally added as a Jupyter notebook 08-30-2021. Switched to a markdown file on 4-4-2022 later due to the portfolio space Jupyter notebooks take up, which disporoportionately skews my coding language profile.
+
+## GermanEbayCarDataCleaning.md
+Added 5-2-22. An exercise in data cleaning with Pandas.
