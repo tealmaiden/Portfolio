@@ -15,8 +15,8 @@ with open(attachment, 'r') as myfile:
    
 #UsersExport-Tank_Exchange-2022-03-11_02_26_38.csv 
 userdf = pd.read_csv('test_users.csv', index_col=2)
-recipientNames = userdf["Name"] #['Wrenn', 'Tank']
-recipientList = userdf.index #['sirene_nova@rl.gov', 'tankexchange@rl.gov']
+recipientNames = userdf["Name"]
+recipientList = userdf.index
 outlook = win32com.client.Dispatch('outlook.application')
 
 for recipient in recipientList:
