@@ -6,9 +6,10 @@ Create a Python script that can read a list of recipients from a csv file and se
 
 ## Steps Taken
 Obtained an existing email template from this source and made adjustments: https://github.com/konsav/email-templates. This template was chosen because it is responsive and can display well on mobile.
+
 Wrote a Python script using the pywin32 (wincom32) library. There isn't a lot of documentation on this module. The following resources were helpful:
-https://www.codeforests.com/2020/06/05/how-to-send-email-from-outlook/#:~:text=How%20to%20send%20email%20from%20outlook%20in%20python,library%2C%20do%20check%20my%20other%20related%20articles%2C%20?msclkid=04c9bcded08d11ec90364a7c65054b92
-https://stackoverflow.com/questions/15494911/python-win32com-outlook-attach-file-with-insert-as-text-method?msclkid=0e173e48d09911ecbfd951a858e442e9
+* https://www.codeforests.com/2020/06/05/how-to-send-email-from-outlook/#:~:text=How%20to%20send%20email%20from%20outlook%20in%20python,library%2C%20do%20check%20my%20other%20related%20articles%2C%20?msclkid=04c9bcded08d11ec90364a7c65054b92
+* https://stackoverflow.com/questions/15494911/python-win32com-outlook-attach-file-with-insert-as-text-method?msclkid=0e173e48d09911ecbfd951a858e442e9
 
 The script sends emails using the default account you are logged into in Outlook. This particular script only works if the account you are logged into is the sender account desired. This means if you have multiple Outlook accounts, you need certain kinds of configurations. There are different ways to do this.
 
