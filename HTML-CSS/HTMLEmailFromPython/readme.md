@@ -1,5 +1,5 @@
 # Email from Python
-
+5-17-2022
 ___
 ## Objective
 Create a Python script that can read a list of recipients from a csv file and send a personalized html-formatted email to the list using an Outlook account as the sender. 
