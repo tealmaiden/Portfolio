@@ -13,7 +13,7 @@ Wrote a Python script using the pywin32 (wincom32) library. There isn't a lot of
 
 The script sends emails using the default account you are logged into in Outlook. This particular script only works if the account you are logged into is the sender account desired. This means if you have multiple Outlook accounts, you need certain kinds of configurations. There are different ways to do this.
 
-To personalize the message, I copied the format of the template into the Python script to use for the greeting, then attached the the html message in a way that displays as the body of the email.
+To personalize the message, I copied the format of the template into the Python script to use for the greeting so that it begins with "Hi [name]", then attached the html message in a way that displays as the body of the email.
 
 ## Results
 I needed to change my Outlook configuration to select between different accounts on loading Outlook so that the email I am logged into could show up as the sender. This is a work script, and my company will not allow having multiple Outlook sender accounts in one Outlook instance. If this were the case, I could change the script to select between accounts.
