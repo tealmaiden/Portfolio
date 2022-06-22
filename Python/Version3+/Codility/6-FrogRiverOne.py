@@ -1,6 +1,6 @@
 # Basically this problem is asking to return the index of a value X in an array A as long as all previous values from 1 to X before it are present in the array. 
 # It is wrapped up in a story about a frog crossing a river that is a page long and fun, but rather unhelpful for me to understand what to do on a timed test.
-# There is a place for word problems, and this mad hatter approach to testing seems okay for homework occasionally, but rather unproductive to learning efficiently.
+# There is a place for word problems, and this mad hatter approach to testing seems okay for homework occasionally, but rather unproductive to with the time I have personally to learn this right now.
 # It also seems unproductive to evaluating my abilities after understanding the problem statement.
 # Here is my 100% soluton after a few rounds of trial and error, half to do with understanding of the question and half to do with little mistakes that the sample input helped me find. 
 # O(N) efficiency:
