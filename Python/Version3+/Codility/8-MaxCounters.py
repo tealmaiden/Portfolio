@@ -23,8 +23,6 @@ def solution(N, A):
 
         if X == nup:
             counter = [MC] * N
-            counterValue = counter[N-1]
-            MC = counterValue
 
         else:
             counter[X-1] += 1
@@ -34,7 +32,35 @@ def solution(N, A):
     
     return counter
 
+#Later attempted with numpy arrays, which seems to be faster. However, codility deosn't provide numpy:
+
+#import numpy as np
+
+#def solution(N, A):
+#    # counter = [0] * N
+#    counter = np.zeros(N) # numpy array of zeros of length N
+#    nup = N + 1
+#    MC = 0
+#    counterValue = 0
+    
+#    for k in range(len(A)):
+#        X = A[k]
+
+#        if X == nup:
+#            #counter = [MC] * N
+#            counter = np.full(N, MC)            
+
+#        else:
+#            counter[X-1] += 1
+#            counterValue = counter[X-1]
+#            if counterValue > MC:
+#                MC = counterValue
+    
+#    return counter
+
+
 #Later attempted this answer using dictionaries and it was slower. It is not very practical either:
+
 #def increase(f, X):
 #    if X not in f:
 #        f[X]=1
