@@ -8,7 +8,7 @@
 # This solution got 88%. It is correct, but gives O(N+M) performance, so I got dinged on a high input timeout. 
 # I tried to improve the efficiency over an earlier version by tracking the max count in a variable rather than calling max(list).
 # This helped, but there is still room for improvement. 
-# My guess is that it is not fast to do it this way in Python because it uses arraylists and not real arrays.
+# My guess is that it is not fast to do it this way in Python because the language uses arraylists and not real arrays.
 # I usually use numpy for real arrays, but I don't think I can import that for these tests. I'll try another way later:
 
 
