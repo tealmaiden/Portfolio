@@ -33,3 +33,43 @@ def solution(N, A):
                 MC = counterValue
     
     return counter
+
+#Later attempted this answer using dictionaries and it was slower. It is not very practical either:
+#def increase(f, X):
+#    if X not in f:
+#        f[X]=1
+#    else:
+#        f[X]+=1
+#    return f
+
+#def maxCounter(f, mc):
+#    f=f.fromkeys(f, mc)
+#    return f
+
+
+#def initializef(N):
+#    f = {}
+#    for k in range(N):        
+#        f[k+1] = 0
+#    print ('f: ' + str(f))
+#    return f
+
+#def solution(N, A):
+    
+#    f = initializef(N)    
+#    nup = N + 1    
+    
+#    for k in range(len(A)):
+        
+#        X = A[k]
+
+#        if X == nup:
+#            f = maxCounter(f, max(f.values()))
+#            print(max(f.values()))
+#            print('result max counter: ' + str(f))
+#        else:
+#            f = increase(f, X)
+    
+#    ans = list(f.values())
+
+#    return ans
