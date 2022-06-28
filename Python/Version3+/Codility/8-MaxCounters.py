@@ -58,7 +58,7 @@ def solution(N, A):
     
 #    return counter
 
-#Later attempted solution in C++, and performance was slightly worse: https://github.com/SireneNova/Portfolio/blob/master/C-Plus-Plus/Codility/8-MaxCounters.cpp
+#Later attempted solution in C++ using vectors, and performance was slightly worse: https://github.com/SireneNova/Portfolio/blob/master/C-Plus-Plus/Codility/8-MaxCounters.cpp
 
 #Later attempted this answer using dictionaries and it was slower. It is not very practical either:
 
