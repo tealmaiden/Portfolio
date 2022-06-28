@@ -43,3 +43,43 @@ void main()
     }
 
 }
+
+//solution with arrays was not any faster:
+//vector<int> solution(int N, vector<int>& A) 
+//{
+//    int* counter  =  new int[N]{ } ; 
+//    
+//    int nup = N + 1;
+//    int MC = 0;
+//    int counterValue = 0;
+//
+//    for (int k = 0; k < A.size(); k++)
+//    {
+//        int X = A[k];
+//
+//        if (X == nup)
+//        {
+//           for (int i = 0; i < N; i++)
+//           {
+//               counter[i] = MC;
+//           }
+//        }
+//
+//        else
+//        {
+//            counter[X - 1] += 1;
+//            counterValue = counter[X - 1];
+//            if (counterValue > MC)
+//            {
+//                MC = counterValue;
+//            }            
+//        }
+//    }
+//    vector<int> counterVector;
+//    for (int i = 0; i < N; i++)
+//    {
+//        counterVector.push_back(counter[i]);
+//    }
+//
+//    return counterVector;
+//}
