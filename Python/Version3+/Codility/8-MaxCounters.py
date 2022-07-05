@@ -32,7 +32,13 @@ def solution(N, A):
     
     return counter
 
-#Later attempted with numpy arrays, which seems to be faster. However, codility deosn't provide numpy:
+#test call:
+#A = [3,4,4,6,1,4,4]
+#print(solution(5, A))
+
+#Found that creating a new array if X==nup as above is faster than using a for loop to repopulate array with new values.
+
+#Later attempted with numpy arrays, which seems to be faster. However, codility doesn't provide numpy:
 
 #import numpy as np
 
