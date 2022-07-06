@@ -33,8 +33,10 @@ def solution(N, A):
     
     return counter
 
-#test call:
+#test calls:
 A = [3,4,4,6,1,4,4]
+print(solution(5, A))
+A= [6, 6, 6, 6, 6, 6]
 print(solution(5, A))
 
 
