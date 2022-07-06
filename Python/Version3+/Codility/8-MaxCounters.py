@@ -5,10 +5,11 @@
 # In each of my answers, I summarize the prompts as above, but the original question is poorly-written, as usual.
 # The question made it seem like the counter values should be set to k on A[k] = N+1, rather than the max count. 
 
-#After many tries, I got a 100% solution. Found the following factors improve speed:
+#After many tries, I got a 100% solution. It is still, O(N+M), but is faster than the earlier submission. In general, found the following factors improve speed:
 # * Creating a new array if X==N+1 (nup) is faster than using a for loop to repopulate array with new values.
 # * Tracking the max count in a variable and comparing with an operator (<) rather than calling max(list) or using max(variable, compared variable).
-# * The most difficult optimization to uncover was using a boolean to check that the list is already set to the max count. This prevents redundant new MC arrays being made for multiple nup values in a row.
+# * The most difficult optimization to uncover, and the one that pushed this to 100% over 88%, was using a boolean to check that the list is already set to the max count. 
+# This prevents redundant new MC arrays being made for multiple nup values in a row.
 
 def solution(N, A):
     counter = [0] * N
