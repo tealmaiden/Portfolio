@@ -1,42 +1,69 @@
 # Return an array (list in python) of counters that tracks the occurence of values in another array A, containing values 1 to N+1. 
-# If a value of A[k] is between 1 and N inclusive, increase the counter for that value. 
-# If the value of A[k] is N+1, set all values in the counter array to the existing max count value within the counter array.
+# If a value of A[k] (or X) is between 1 and N inclusive, increase the counter for that value. 
+# If the value of X is N+1, set all values in the counter array to the existing max count value within the counter array.
 
 # In each of my answers, I summarize the prompts as above, but the original question is poorly-written, as usual.
 # The question made it seem like the counter values should be set to k on A[k] = N+1, rather than the max count. 
 
-# This solution got 88%. It is correct, but gives O(N+M) performance, so I got dinged on a high input timeout. 
-# I tried to improve the efficiency over an earlier version by tracking the max count in a variable rather than calling max(list).
-# This helped, but there is still room for improvement. 
-# My guess is that it is not fast to do it this way in Python because the language uses arraylists and not real arrays.
-# I usually use numpy for real arrays, but I don't think I can import that for these tests. I'll try another way later:
-
+#After many tries, I got a 100% solution. Found the following factors improve speed:
+# * Creating a new array if X==N+1 (nup) is faster than using a for loop to repopulate array with new values.
+# * Tracking the max count in a variable and comparing with an operator (<) rather than calling max(list) or using max(variable, compared variable).
+# * The most difficult optimization to uncover was using a boolean to check that the list is already set to the max count. This prevents redundant new MC arrays being made for multiple nup values in a row.
 
 def solution(N, A):
     counter = [0] * N
     nup = N + 1
     MC = 0
     counterValue = 0
+    alreadyMax = False
     
-    for k in range(len(A)):
-        X = A[k]    
+    for X in A:
 
-        if X == nup:
+        if X == nup and not alreadyMax:
             counter = [MC] * N
+            alreadyMax = True
 
-        else:
+        elif X<=N:             #changing this to "else" breaks it because it would be now hit if X == nup and alreadymax
             counter[X-1] += 1
             counterValue = counter[X-1]
             if counterValue > MC:
                 MC = counterValue
+            alreadyMax = False
     
     return counter
 
 #test call:
-#A = [3,4,4,6,1,4,4]
-#print(solution(5, A))
+A = [3,4,4,6,1,4,4]
+print(solution(5, A))
 
-#Found that creating a new array if X==nup as above is faster than using a for loop to repopulate array with new values.
+
+# This solution got 88%. It is correct, gives O(N+M) performance, but I got dinged on a high input timeout. 
+# I tried to improve the efficiency over an earlier version by tracking the max count in a variable rather than calling max(list).
+# This helped, but there was still room for improvement. 
+# My guess was that it is not fast to do it this way in Python because the language uses arraylists and not real arrays.
+# I usually use numpy for real arrays, but I don't think I can import that for these tests. I'll tried other ways after:
+
+#def solution(N, A):
+#     counter = [0] * N
+#     nup = N + 1
+#     MC = 0
+#     counterValue = 0
+    
+#     for X in A:
+        
+#         if X == nup:
+#             counter = [MC] * N
+
+#         else:
+#             counter[X-1] += 1
+#             counterValue = counter[X-1]
+#             if counterValue > MC:
+#                 MC = counterValue
+    
+#     return counter
+
+
+
 
 #Later attempted with numpy arrays, which seems to be faster. However, codility doesn't provide numpy:
 
@@ -64,7 +91,13 @@ def solution(N, A):
     
 #    return counter
 
+
+
+
 #Later attempted solution in C++ using vectors, and performance was slightly worse: https://github.com/SireneNova/Portfolio/blob/master/C-Plus-Plus/Codility/8-MaxCounters.cpp
+
+
+
 
 #Later attempted this answer using dictionaries and it was slower. It is not very practical either:
 
