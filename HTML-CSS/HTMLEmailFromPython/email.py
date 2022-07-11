@@ -22,8 +22,8 @@ optOutList = ["dummy1@email", "dummy2@email"]
 for item in optOutList:
     userdf.drop(userdf.index[userdf.index == item], inplace = True)
     
-recipientNames = userdf["Name"] #['Wrenn', 'Tank']
-recipientList = userdf.index #['sirene_nova@rl.gov', 'tankexchange@rl.gov']
+recipientNames = userdf["Name"]
+recipientList = userdf.index
 outlook = win32com.client.Dispatch('outlook.application')
 
 for recipient in recipientList:
