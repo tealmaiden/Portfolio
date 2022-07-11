@@ -1,7 +1,6 @@
 # Array A contains N cars traveling east or west, represented by 0 and 1. Count the number of pair of passing cars. If number of cars exceeds 1,000,000,000 return -1. 
 # This exercise is part of a lesson on prefix sums.
 
-
 #test arrays:
 A = [0,1,0,1,1] #for example, pairs in this are (0,1) (0,3) (0,4) (2,3) (2,4) and the count is 5
 A = [1,1,1,0,1]
