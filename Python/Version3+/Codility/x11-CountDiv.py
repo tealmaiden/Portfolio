@@ -1,7 +1,10 @@
-#Count the numbers divisible by K in rang A..B efficiently. This is in a prefixSums lesson.
+# Count the numbers divisible by K in range A...B efficiently. This is in a prefixSums lesson.
 
-# A work in progress. This solution is efficient O(1), but give a wrong answer on one of the last checks. It scores 87%. Needs improvement. 
-# Not sure how to apply prefix sums to solve this better, but this solution appears to be close to working well:
+# An obvious solution to this problem exists (dummySolution, commented below), however it is extremely slow.
+# My proposed solution is extremely efficient O(1) and scores 100%. It took much  trial and error to work out the edge cases. 
+# It helped to compare results with dummySolution in order to make sure the answers were correct. 
+# I'm not sure how to apply prefix sums to solve this better, but this solution appears to be working well. 
+# I may return to this later to understand what the intention was for this being in the prefix sums section:
 
 import math
 
@@ -29,7 +32,7 @@ K = 5
 
 print("solution: " + str(solution(A, B, K)))
   
-# Accurate, but slow solution:
+# Accurate, but extremely slow solution:
 # def dummySolution(A, B, K):
 #     count = 0
 #     if A==0 and A==B:
