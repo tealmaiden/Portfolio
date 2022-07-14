@@ -10,6 +10,8 @@ import math
 
 def solution(A, B, K):
     count = 0
+    if K==1:
+        return B-A+1
     if A==0:
         count += 1
     if K>B:
