@@ -28,5 +28,25 @@ def dummySolution(S, P, Q):
          impactList.append(minFactor)
      return impactList
 
-
 print("dummy solution: " + str(dummySolution(S, P, Q)))
+
+#An equivalent slow solution:
+def dummySolution2(S, P, Q):
+    length = len(P)    
+    nucleoImpactDictionary = {'A':1, 'C':2, 'G':3, 'T':4}
+    impactList = []
+    STranslated = []    
+
+    for c in S:
+        STranslated.append(nucleoImpactDictionary[c])
+
+    for i in range(length):
+        p=P[i]
+        q=Q[i]  
+        
+        minFactor = min(STranslated[p:q+1])
+     
+        impactList.append(minFactor)
+    return impactList
+
+print("dummySolution2: " + str(dummySolution2(S, P, Q)))
