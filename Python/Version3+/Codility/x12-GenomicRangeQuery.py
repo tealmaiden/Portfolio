@@ -20,15 +20,10 @@ def dummySolution(S, P, Q):
          q=Q[i]         
          minFactor = 4
 
-         if p==q:
-             nucleoImpact = nucleoImpactDictionary[S[p]]
-             if nucleoImpact < minFactor:
-                 minFactor = nucleoImpact
-         else:
-             for i in range(p, q, 1): 
-                 nucleoImpact = nucleoImpactDictionary[S[i]]
-                 if nucleoImpact < minFactor:
-                     minFactor = nucleoImpact
+         for i in range(p, q+1, 1): 
+            nucleoImpact = nucleoImpactDictionary[S[i]]
+            if nucleoImpact < minFactor:
+                minFactor = nucleoImpact
                  
          impactList.append(minFactor)
      return impactList
