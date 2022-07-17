@@ -13,8 +13,11 @@ S = "TC"
 P = [0,0,1]
 Q = [0,1,1]
 
-# 100% solution O(N+M). This is another solution in the prefix sums lesson that doesn't use prefix sums, but still works well.
+# 100% solution O(N+M). This is another solution in the prefix sums section that doesn't use prefix sums, but still works well.
 # I might return to this later to see if there is a way to use prefix sums or if it just a distraction.
+# The optimization over earlier versions was to check for the presence of each impact in the desired sequence one at a time, starting with the smallest one (A),
+# and just set the min value to the smallest present value.
+# Earlier versions below this solution compare all of the values in the sequence to find the min.
 
 def solution(S, P, Q):
     length = len(P)    
