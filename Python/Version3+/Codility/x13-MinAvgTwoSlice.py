@@ -21,37 +21,27 @@ def reversedPrefixSum(A):
 
 #print(reversedPrefixSum(A))
 
-def minFromBack(revPref, length):
-    for i in range(0, length-2, 1):
-        revPref[length] - revPref[i]
-
 def solution(A):
     revPref = reversedPrefixSum(A)
-    #print("revPref: " + str(revPref))
     minIndex = 0
     theMin = 10000
     length = len(A)
     ogLength = len(A)
-    #print("starting length: " + str(length))
     rounds = 0
-    while(length>1):
-        for i in range(length-1):
-            #print("length: " + str(length))
-            #print("revPref[rounds]: " + str(revPref[rounds]))
-            #print("revPref[length-i]: " + str(revPref[length-i]))
-            numerator = revPref[ogLength-i]-revPref[rounds]
-            avg = numerator/(length-i)
-            #print("i: " + str(i))
-            #print("avg: " + str(avg))
-            #print()
-            if avg<=theMin:
-                theMin=avg
-                minIndex = i
-        length-=1
-        rounds+=1
+    loops = 0
+    while(length>1):        
+        numerator = revPref[ogLength-loops]-revPref[rounds]
+        denominator = length-loops        
+        avg = numerator/denominator        
+        if avg<=theMin:
+            theMin = avg
+            minIndex = loops     
+        loops+=1
+        if denominator==2:
+            length-=1
+            rounds+=1
+            loops = 0
         continue
-    #print("ROUNDS: " + str(rounds))
-    #print()
     return minIndex
 
 print(solution(A))
@@ -59,25 +49,31 @@ print(solution(A))
 # Removing the nested loop actually didn't improve the efficiency interestingly. This solution is equivalent to the one above:
 #def solution(A):
 #    revPref = reversedPrefixSum(A)
+#    #print("revPref: " + str(revPref))
 #    minIndex = 0
 #    theMin = 10000
 #    length = len(A)
 #    ogLength = len(A)
+#    #print("starting length: " + str(length))
 #    rounds = 0
-#    loops = 0
-#    while(length>1):        
-#        numerator = revPref[ogLength-loops]-revPref[rounds]
-#        denominator = length-loops        
-#        avg = numerator/denominator        
-#        if avg<=theMin:
-#            theMin = avg
-#            minIndex = loops     
-#        loops+=1
-#        if denominator==2:
-#            length-=1
-#            rounds+=1
-#            loops = 0
+#    while(length>1):
+#        for i in range(length-1):
+#            #print("length: " + str(length))
+#            #print("revPref[rounds]: " + str(revPref[rounds]))
+#            #print("revPref[length-i]: " + str(revPref[length-i]))
+#            numerator = revPref[ogLength-i]-revPref[rounds]
+#            avg = numerator/(length-i)
+#            #print("i: " + str(i))
+#            #print("avg: " + str(avg))
+#            #print()
+#            if avg<=theMin:
+#                theMin=avg
+#                minIndex = i
+#        length-=1
+#        rounds+=1
 #        continue
+#    #print("ROUNDS: " + str(rounds))
+#    #print()
 #    return minIndex
 
 
