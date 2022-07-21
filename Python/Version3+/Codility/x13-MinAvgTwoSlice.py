@@ -3,8 +3,7 @@
 # This is a really difficult problem. The following code is a work in progress.
 # It returns the correct answer, but is not optimal for speed, so gives 60%. It uses prefix sums. I thought the issue was the use of a nested loop, but removing it didn't help (see commented solution below).
 # Since we want to find the lowest index, I made a function that finds the reversed prefix sum (Right to Left) of the given array rather that Left to Right. 
-# This way when the this reversed prefix array is traversed to find averages, it is easier to inentify minimum indices that give minimum averages. It is hard to explain.
-# Not yet sure how to get rid of the nested loop for checking every possible slice.
+# This way when the this reversed prefix array is traversed to find averages, it is easier to identify minimum indices that give minimum averages. It is hard to explain.
 
 A = [4,2,2,5,1,5,8] #1
 #A = [1,1,1,1,1,1,1] #0
