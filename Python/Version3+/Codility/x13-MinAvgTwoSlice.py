@@ -1,7 +1,7 @@
 # Find the minimum index that returns the slice of the array with the lowest average. This is in the prefix sums lesson.
 
 # This is a really difficult problem. The following code is a work in progress.
-# It returns the correct answer, but is not optimal for speed, so gives 60%. It uses prefix sums. I thought the issue was the use of a nested loop, but removing it didn't help (see commented solution below).
+# It returns the correct answer, but is not optimal for speed, so gives 60% O(N^2). It uses prefix sums. I thought the issue was the use of a nested loop, but removing it didn't help (see commented solution below).
 # Since we want to find the lowest index, I made a function that finds the reversed prefix sum (Right to Left) of the given array rather that Left to Right. 
 # This way when the this reversed prefix array is traversed to find averages, it is easier to identify minimum indices that give minimum averages. It is hard to explain.
 
