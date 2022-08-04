@@ -31,3 +31,5 @@ def solution(A):
 A = [10, 50, 5, 1]
 
 print(solution(A))
+
+#https://app.codility.com/demo/results/trainingGWNNZ9-92K/
