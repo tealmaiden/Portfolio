@@ -4,7 +4,7 @@
 # A[Q] + A[R] > A[P]
 # A[R] + A[P] > A[Q]
 
-# My first solution gave the correct answer but was O^3 efficiency because the triple nested loop makes many comparisons. 
+# My first solution gave the correct answer but was O^3 efficiency because the triple nested loop made many comparisons. 
 # I do not see a way to do this without the loops, but I have built in ways to get to the solution faster by rearranging the array and doing various checks.
 # One thing that was apparent early on is that if a set of values is triangular, it doesn't matter the positions they are in the array.
 # This means the values can be arranged in different ways.
