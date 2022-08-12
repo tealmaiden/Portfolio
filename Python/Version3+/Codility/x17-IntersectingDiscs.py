@@ -4,7 +4,6 @@
 
 
 # Below is a correct solution that is O(N^2). It is a work in progress.
-# It creates two lists out of the given array that represent the top and bottom ranges of the disc.
 # It then goes through the each disc and compares it to the discs that come after it in the array to check if they touch:
 
 def between (a, sandwich, b):
@@ -14,30 +13,30 @@ def between (a, sandwich, b):
         return False
 
 def solution(A):
-        
-    topList = []
-    botList = []
-    
+
     count = 0     
-    
-    for i in range(len(A)):
-        topList.append(i + A[i])
-        botList.append(i - A[i])
-        
-    while count <= 10000000:
-        for i in range(len(topList)):
-            for j in range(i+1, len(topList), 1):
-                
-                if between(botList[j], topList[i], topList[j]): 
+
+    if count <= 10000000:
+        for i in range(len(A)):
+            cursorTop = i + A[i]
+            cursorBot = i - A[i]
+
+            for j in range(i+1, len(A), 1):
+                compTop = j + A[j]
+                compBot = j - A[j]
+
+                if between(compBot, cursorTop, compTop):
                     count += 1
-                elif between(botList[j], botList[i], topList[j]):
+                elif between(compBot, cursorBot, compTop):
                     count += 1
-                elif between(botList[i], topList[j], topList[i]):
+                elif between(cursorBot, compTop, cursorTop):
                     count += 1
-                elif between(botList[i], botList[j], topList[i]):
+                elif between(cursorBot, compBot, cursorTop):
                     count += 1
-        return count
-    
-    return -1
+    else:
+        return -1
+
+    return count
   
- #https://app.codility.com/demo/results/trainingD6THUW-N38/
+#https://app.codility.com/demo/results/trainingD6THUW-N38/
+#https://app.codility.com/demo/results/trainingGFRXDX-QHJ/
