@@ -4,7 +4,7 @@
 
 
 # Below is a correct solution that is O(N^2). It is a work in progress.
-# It then goes through the each disc and compares it to the discs that come after it in the array to check if they touch:
+# It goes through the each disc and compares it to the discs that come after it in the array to check if they touch:
 
 def between (a, sandwich, b):
     if (a <= sandwich <= b):
