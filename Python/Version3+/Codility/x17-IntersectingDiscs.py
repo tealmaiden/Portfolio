@@ -16,7 +16,7 @@ def solution(A):
 
     count = 0     
 
-    if count <= 10000000:
+    while count <= 10000000:
         for i in range(len(A)):
             cursorTop = i + A[i]
             cursorBot = i - A[i]
@@ -33,10 +33,8 @@ def solution(A):
                     count += 1
                 elif between(cursorBot, compBot, cursorTop):
                     count += 1
-    else:
-        return -1
+        return count    
+    
+    return -1
 
-    return count
-  
-#https://app.codility.com/demo/results/trainingD6THUW-N38/
-#https://app.codility.com/demo/results/trainingGFRXDX-QHJ/
+#https://app.codility.com/demo/results/training84G88R-8HZ/
