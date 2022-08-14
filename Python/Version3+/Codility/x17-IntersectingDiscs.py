@@ -66,8 +66,9 @@ def solution(A):
     return -1
 
 A = [0, 5, 2, 1, 4, 0]
-A = [1,1,1]
+A = [1, 1, 1]
 A = []
+A = [1, 4, 2, 8, 0, 3]
 
 
 # Below is a relatively simple correct solution that is O(N^2) and gets zero performance points:
