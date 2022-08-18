@@ -8,7 +8,7 @@
 # This solution creates disc objects out of the array to keep track of their top and bottom, and then sorts them by bottom. 
 # It then iterates through the discs while keeping track of the tops as it goes and sorts this list of tops.
 # It compares the bottom of each disc to the list of tops. 
-# If the bottom of the disc is less than the minimum top, it that means it intersects with all discs below it, and the count can be increased by the position of the disc.
+# If the bottom of the disc is less than the minimum top, that means it intersects with all discs below it, and the count can be increased by the position of the disc.
 # If not, the count can be set to the disc position minus the number of previous tops that are less than the disc bottom.
 # I usually avoid using Python for objects because it is awkward. There is more information entered into the discs than is needed, but I may experiment more with it.
 
