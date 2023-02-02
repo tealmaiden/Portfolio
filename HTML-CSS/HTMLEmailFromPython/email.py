@@ -2,7 +2,9 @@
 """
 Spyder Editor
 
-Send emails from Python: Make sure you are loggged into TankExchange email
+Send emails from Python: 
+    *****MAKE SURE YOU ARE LOGGED INTO TANKEXCHANGE INBOX TO RUN THIS.*******
+    *****UPDATE HTML ATTACHMENT BEFORE RUNNING*****
 """
 
 #import smtplib
@@ -10,20 +12,20 @@ import win32com.client
 import pandas as pd
 
 # change attachment for new emails:
-attachment = 'U:\Documents\TankExchange\Marketing\emails\email1.html'
+attachment = 'C:/git/tankexchange-code/emails/tipTime2.html' #****UPDATE BEFORE RUNNING*****
 with open(attachment, 'r') as myfile:
    data=myfile.read()
    
 #UsersExport-Tank_Exchange-.....csv 
-userdf = pd.read_csv('UsersExport-Tank_Exchange-2022-07-11_19_19_22.csv', index_col=(2)) #index column is email column
+userdf = pd.read_csv('test_users.csv', index_col=(2)) #index column is email column
 
 #remove users who don't want to be emailed
-optOutList = ["dummy1@email", "dummy2@email"]
+optOutList = ["alan_d_rathbun@rl.gov", "dummy2"]
 for item in optOutList:
     userdf.drop(userdf.index[userdf.index == item], inplace = True)
     
 recipientNames = userdf["Name"]
-recipientList = userdf.index
+recipientList = userdf.index #indexed by email
 outlook = win32com.client.Dispatch('outlook.application')
 
 for recipient in recipientList:
@@ -78,6 +80,6 @@ for recipient in recipientList:
        
     mail = outlook.CreateItem(0)
     mail.To = recipient
-    mail.Subject = 'Three important announcements' #'What\'s your \"duh\" question?'
+    mail.Subject = 'Tip Time'
     mail.HTMLBody = msg + data   
     mail.Send()
