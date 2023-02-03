@@ -656,7 +656,7 @@ plt.show()
     
 
 
-**Observations:***
+**Observations:**
 * The heaviest weather indicator affecting traffic volume appears to be squalls (wind). This is associated with decreased traffic.
 * Smoke, freezing rain, certain thunderstorms, sleet, and light intensity shower rain are also associated with decreased traffic to a lesser extent.
 * Traffic appears to be about the same, around 7000 cars, for other weather types, including other kinds of rain and thunderstorms, fog, and all kinds of snow.
