@@ -13,4 +13,8 @@ Originally added as a Jupyter notebook 08-30-2021. Switched to a markdown file o
 Added 5-2-22. An exercise in data cleaning with Pandas.
 
 ## A Visualization of Factors affecting Traffic Volume on the I-94.md
-Added 2-3-23. 
+Added 2-3-23. Basic data visualization with various chart types.
+
+## Storytelling Data Visualization on Exchange Rates.md
+Added 7-10-23. Independent storytelling visualization showing changes over time. Demonstrates Gestalt Principles, preattentive attributes.
+
