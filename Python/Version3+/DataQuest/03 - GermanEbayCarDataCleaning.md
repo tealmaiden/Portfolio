@@ -1,4 +1,4 @@
-   # Scraping German Car Ebay Data
+# Scraping German Car Ebay Data
 
 The goal of this guided project is to clean and analyze German eBay data using the tools learned in the Numpy and Pandas Fundamentals section.
 
