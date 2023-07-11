@@ -11,3 +11,6 @@ Originally added as a Jupyter notebook 08-30-2021. Switched to a markdown file o
 
 ## GermanEbayCarDataCleaning.md
 Added 5-2-22. An exercise in data cleaning with Pandas.
+
+## A Visualization of Factors affecting Traffic Volume on the I-94.md
+Added 2-3-23. 
