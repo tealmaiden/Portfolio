@@ -18,3 +18,5 @@ Added 2-3-23. Basic data visualization with various chart types.
 ## Storytelling Data Visualization on Exchange Rates.md
 Added 7-10-23. Independent storytelling visualization showing changes over time. Demonstrates Gestalt Principles, preattentive attributes.
 
+## Clean and Analyze Employee Exit Surveys
+12-18-23. A data cleaning and aggregation exercise to evaluate job satisfaction in certain Australian institutions.
