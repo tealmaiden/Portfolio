@@ -7,7 +7,7 @@
 		<Platforms>AnyCPU;x64</Platforms>
 		<!--Enable Com abilities-->
 		<EnableComHosting>true</EnableComHosting>
-		<EnableRegFreeCom>true</EnableRegFreeCom>
+		<!--<EnableRegFreeCom>true</EnableRegFreeCom>-->
 	</PropertyGroup>
 
 	<!-- Compile the IDL file to generate the TLB before build (Not working. Must do manually with Tools -> Command Line -> Developer Prompt -> midl SimpleComRegistered.idl)-->
@@ -23,11 +23,9 @@
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<!-- Embed the manifest into the comhost.dll -->
-		<Exec Command="mt.exe -manifest $(TargetDir)SimpleComRegisteredLibrary.X.manifest -outputresource:$(TargetDir)SimpleComRegisteredLibrary.comhost.dll;#1" IgnoreExitCode="false" />
+		<!--<Exec Command="mt.exe -manifest $(TargetDir)SimpleComRegisteredLibrary.X.manifest -outputresource:$(TargetDir)SimpleComRegisteredLibrary.comhost.dll;#1" IgnoreExitCode="false" />-->
 		<!-- Copy the TLB file to the output directory -->
 		<Exec Command="XCOPY /Y &quot;$(SolutionDir)SimpleComRegistered.tlb&quot; &quot;$(TargetDir)&quot;" IgnoreExitCode="false" />
 	</Target>
 
 </Project>
-
-
