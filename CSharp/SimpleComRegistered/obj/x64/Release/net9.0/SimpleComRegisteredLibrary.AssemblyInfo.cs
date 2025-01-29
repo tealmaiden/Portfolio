@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleComRegisteredLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ac6f93547de2d859b3067015484639f64892ec6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleComRegisteredLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleComRegisteredLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
