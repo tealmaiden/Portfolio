@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleComLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4535deb116ebe04e3108cd7693746143acfedf86")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleComLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleComLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
