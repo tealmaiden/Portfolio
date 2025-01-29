@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\simplecom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\temp\\simplecom\\simplecomlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecomlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\temp\\simplecom\\simplecomlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecomlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\temp\\simplecom\\simplecom.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecom.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimpleComLibrary.csproj",
+              "DocumentMoniker": "C:\\Temp\\simplecom\\SimpleComLibrary.csproj",
+              "RelativeDocumentMoniker": "SimpleComLibrary.csproj",
+              "ToolTip": "C:\\Temp\\simplecom\\SimpleComLibrary.csproj",
+              "RelativeToolTip": "SimpleComLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T02:55:54.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleCom.idl",
+              "DocumentMoniker": "C:\\Temp\\simplecom\\SimpleCom.idl",
+              "RelativeDocumentMoniker": "SimpleCom.idl",
+              "ToolTip": "C:\\Temp\\simplecom\\SimpleCom.idl",
+              "RelativeToolTip": "SimpleCom.idl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000564|",
+              "WhenOpened": "2025-01-24T02:45:06.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleComLibrary.cs",
+              "DocumentMoniker": "C:\\Temp\\simplecom\\SimpleComLibrary.cs",
+              "RelativeDocumentMoniker": "SimpleComLibrary.cs",
+              "ToolTip": "C:\\Temp\\simplecom\\SimpleComLibrary.cs",
+              "RelativeToolTip": "SimpleComLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:39:37.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
