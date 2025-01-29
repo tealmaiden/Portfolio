@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\simplecom\\SimpleComLibrary.csproj",
+      "projectUniqueName": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleComLibrary.csproj",
       "projectName": "SimpleComLibrary",
-      "projectPath": "C:\\Temp\\simplecom\\SimpleComLibrary.csproj",
+      "projectPath": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleComLibrary.csproj",
       "packagesPath": "C:\\Users\\h8048069\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\simplecom\\obj\\",
+      "outputPath": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

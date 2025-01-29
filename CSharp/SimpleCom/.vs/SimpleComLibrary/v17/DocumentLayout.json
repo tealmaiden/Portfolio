@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Temp\\simplecom\\",
+  "WorkspaceRootPath": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\temp\\simplecom\\simplecomlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecomlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\temp\\simplecom\\simplecomlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\git\\portfolio\\csharp\\simplecom\\simplecomlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecomlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\temp\\simplecom\\simplecom.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\git\\portfolio\\csharp\\simplecom\\simplecom.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecom.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|c:\\git\\portfolio\\csharp\\simplecom\\simplecomlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C36A5166-A7AA-4643-A8FD-D09F5AE2F55B}|SimpleComLibrary.csproj|solutionrelative:simplecomlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,11 +46,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SimpleComLibrary.csproj",
-              "DocumentMoniker": "C:\\Temp\\simplecom\\SimpleComLibrary.csproj",
+              "DocumentMoniker": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleComLibrary.csproj",
               "RelativeDocumentMoniker": "SimpleComLibrary.csproj",
-              "ToolTip": "C:\\Temp\\simplecom\\SimpleComLibrary.csproj",
+              "ToolTip": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleComLibrary.csproj",
               "RelativeToolTip": "SimpleComLibrary.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -59,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SimpleCom.idl",
-              "DocumentMoniker": "C:\\Temp\\simplecom\\SimpleCom.idl",
+              "DocumentMoniker": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleCom.idl",
               "RelativeDocumentMoniker": "SimpleCom.idl",
-              "ToolTip": "C:\\Temp\\simplecom\\SimpleCom.idl",
+              "ToolTip": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleCom.idl",
               "RelativeToolTip": "SimpleCom.idl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000564|",
@@ -72,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SimpleComLibrary.cs",
-              "DocumentMoniker": "C:\\Temp\\simplecom\\SimpleComLibrary.cs",
+              "DocumentMoniker": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleComLibrary.cs",
               "RelativeDocumentMoniker": "SimpleComLibrary.cs",
-              "ToolTip": "C:\\Temp\\simplecom\\SimpleComLibrary.cs",
+              "ToolTip": "C:\\git\\Portfolio\\CSharp\\SimpleCom\\SimpleComLibrary.cs",
               "RelativeToolTip": "SimpleComLibrary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T01:39:37.739Z",
               "EditorCaption": ""
