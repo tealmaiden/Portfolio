@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64</Platforms>
+		<!--Enable Com abilities-->
+		<EnableComHosting>true</EnableComHosting>
+		<!--<EnableRegFreeCom>true</EnableRegFreeCom>-->
+	</PropertyGroup>
+
+	<!-- Compile the IDL file to generate the TLB before build (Not working. Must do manually with Tools -> Command Line -> Developer Prompt -> midl SimpleComRegistered.idl)-->
+	<!--<Target Name="CompileIDL" BeforeTargets="Build">
+		<Exec Command="midl.exe &quot;$(SolutionDir)SimpleComRegistered.idl&quot; /out &quot;$(SolutionDir)&quot;" />
+	</Target>-->
+
+	<ItemGroup>
+		<!-- Embed the TLB into the comhost.dll -->
+		<ComHostTypeLibrary Include="SimpleComRegistered.tlb" Id="1" />
+		<RuntimeHostConfigurationOption Include="System.Runtime.InteropServices.COM.LoadComponentInDefaultContext" Value="true" />
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<!-- Embed the manifest into the comhost.dll -->
+		<!--<Exec Command="mt.exe -manifest $(TargetDir)SimpleComRegisteredLibrary.X.manifest -outputresource:$(TargetDir)SimpleComRegisteredLibrary.comhost.dll;#1" IgnoreExitCode="false" />-->
+		<!-- Copy the TLB file to the output directory -->
+		<Exec Command="XCOPY /Y &quot;$(SolutionDir)SimpleComRegistered.tlb&quot; &quot;$(TargetDir)&quot;" IgnoreExitCode="false" />
+	</Target>
+
+</Project>

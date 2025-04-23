@@ -1,0 +1,37 @@
+﻿[
+	// 🔹 Type Library GUID (Matches the assembly-level GUID in C#)
+	// This uniquely identifies the entire COM library and should match the [assembly: Guid(...)] in C#.
+	uuid(12345678-ABCD-1234-ABCD-1234567890AB),
+		version(1.0)
+]
+library SimpleComLibrary
+{
+	// Import standard COM definitions
+import "oaidl.idl";
+import "ocidl.idl";
+
+	[
+		object,
+			// 🔹 Interface GUID (Matches the interface GUID in C#)
+			// This uniquely identifies the ISimpleCom interface and should match the [Guid(...)] on the C# interface.
+			uuid(87654321-DCBA-4321-DCBA-0987654321BA),
+			oleautomation
+	]
+		interface ISimpleCom : IUnknown
+	{
+		// The method exposed to COM (returns a BSTR, which is the COM equivalent of a string)
+		HRESULT Test([out, retval] BSTR* result);
+	};
+
+	[
+		// 🔹 Class GUID (Matches the class GUID in C#)
+		// This uniquely identifies the SimpleCom class and should match the [Guid(...)] on the C# class.
+		uuid(98765432-CBA1-4321-CBA1-1234567890AB),
+			version(1.0)
+	]
+		coclass SimpleCom
+	{
+		// 🔹 Specifies that the ISimpleCom interface is the default interface for this COM class
+		[default] interface ISimpleCom;
+	};
+};

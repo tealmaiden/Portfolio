@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64</Platforms>
+		<!--Enable Com abilities-->
+		<EnableComHosting>true</EnableComHosting>
+		<EnableRegFreeCom>true</EnableRegFreeCom>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Embed the TLB into the comhost.dll -->
+		<ComHostTypeLibrary Include="SimpleCom.tlb" Id="1" />
+		<RuntimeHostConfigurationOption Include="System.Runtime.InteropServices.COM.LoadComponentInDefaultContext" Value="true" />
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<!-- Embed the manifest into the comhost.dll -->
+		<Exec Command="mt.exe -manifest $(TargetDir)SimpleComLibrary.X.manifest -outputresource:$(TargetDir)SimpleComLibrary.comhost.dll;#1" IgnoreExitCode="false" />
+		<!-- Copy the TLB file to the output directory -->
+		<Exec Command="XCOPY /Y &quot;$(SolutionDir)SimpleCom.tlb&quot; &quot;$(TargetDir)&quot;" IgnoreExitCode="false" />
+	</Target>
+
+</Project>
+
+
