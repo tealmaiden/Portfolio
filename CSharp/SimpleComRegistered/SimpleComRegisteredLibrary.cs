@@ -1,4 +1,6 @@
-﻿using System;
+﻿//SimpleComRegisteredLibrary.cs
+
+using System;
 using System.IO;
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
