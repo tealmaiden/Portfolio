@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1"><assemblyIdentity type="win32" name="SimpleComLibrary.X" version="1.0.0.0" /><file name="SimpleComLibrary.comhost.dll"><comClass clsid="{87654321-dcba-4321-dcba-0987654321ba}" threadingModel="Both" progid="SimpleComLibrary.SimpleCom" /></file></assembly>

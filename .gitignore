@@ -5,6 +5,10 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# Ignore Visual Studio files and build artifacts in all directories
+**/.vs/
+**/obj/
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
