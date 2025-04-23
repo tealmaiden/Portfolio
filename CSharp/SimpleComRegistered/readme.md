@@ -33,3 +33,12 @@ The application was able to be sucessfully called from Excel. Diagnostics were p
 6.	Enter the command “C:\Windows\System32\regsvr32.exe SimpleComRegisteredLibrary.comhost.dll”.
 7.	In a few seconds, you should see a success message that the library has been registered. There should also be information printed to the log file mentioned in Results above.
 8.	Proceed to call from Excel, by opening the "call simplecom.xlsm" file in the same directory and clicking the test button. You should see a success message. You should see more info printed to the log file.
+
+### Uninstalling/Unregistering
+If you move the location of program files, acquire an updated version, or for any other reason need to uninstall the previous registration of the com library, follow the above steps 1-5 , then for step 6, enter this command instead to remove it from the registry:
+C:\Windows\System32\regsvr32.exe /u SimplecComRegisteredLibrary.comhost.dll
+
+If this doesn’t work, or to make sure it worked, open the Registry Editor on your system (search in the same bar as you did for cmd) and look for the following two folders (keys). Delete them if they are present:
+
+1.	HKEY_CLASSES_ROOT\SimpleComRegisteredLibrary.ExcelOutput 
+2.	HKEY_CLASSES_ROOT\CLSID\{77676CBD-E536-4B98-9841-0AC794051191}
