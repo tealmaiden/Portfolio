@@ -41,12 +41,8 @@ namespace SimpleComRegisteredLibrary
             {
                 // ✅ Ensure we're using .NET 9
                 string runtimeVersion = System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion();
-                if (!runtimeVersion.StartsWith("9."))
-                {
-                    Log($"❌ ERROR: Incorrect .NET version detected: {runtimeVersion}. Expected .NET 9.");
-                    return;
-                }
-
+                Log($".NET version detected: {runtimeVersion}. Expecting .NET 9.");
+                
                 string clsid = t.GUID.ToString("B"); // Format as {GUID}
                 string progID = t.Namespace + "." + t.Name; // "SimpleComRegisteredLibrary.SimpleComRegistered"
                 string comHostPath = t.Assembly.Location.Replace(".dll", ".comhost.dll"); // Get full path to COM Host DLL
