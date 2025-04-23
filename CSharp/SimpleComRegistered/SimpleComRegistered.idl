@@ -1,4 +1,5 @@
-﻿[
+﻿//SimpleComRegistered.idl
+[
 	// 🔹 Type Library GUID (Matches the assembly-level GUID in C#)
 	// This uniquely identifies the entire COM library and should match the [assembly: Guid(...)] in C#.
 	uuid(D068F42B-A556-4188-8FF2-792AAF6D0B42),
