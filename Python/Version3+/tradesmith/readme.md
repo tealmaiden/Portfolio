@@ -13,12 +13,13 @@ Precise numbers are also available in the edit pages of each trade. So in theory
 
 ## Latest version (2026)
 Thankfully, the data is present in a response visible on inspection following specific steps. On chrome, in your portfolio:
-	* Inspect
-	* Open DevTools → Network tab
-	* Reload the page
-	* Filter by fetch or xhr
-	* Find GetPositionsGridData
-	* Copy the JSON response in full and paste into a txt file.
+   * Inspect
+   * Open DevTools → Network tab
+   * Reload the page
+   * Filter by fetch or xhr
+   * Find GetPositionsGridData
+   * Copy the JSON response in full and paste into a txt file.
+     
 tradesmith_scraper_response.py can be used to parse this into a csv file.
 
 This is not proprietary data from tradesmith that is being hidden extracted in this description. It is the raw data entered by a given user such as number of shares and prices, from their own account. After requesting many times that tradesmith simply export the full precision in their own csv export option (2025 and pre), they obfuscated the data further (2026).
