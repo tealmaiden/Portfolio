@@ -22,6 +22,4 @@ Thankfully, the data is present in a response visible on inspection following sp
      
 tradesmith_scraper_response.py can be used to parse this into a csv file.
 
-This is not proprietary data from tradesmith that is being hidden extracted in this description. It is the raw data entered by a given user such as number of shares and prices, from their own account. After requesting many times that tradesmith simply export the full precision in their own csv export option (2025 and pre), they obfuscated the data further (2026).
-
-
+This is not proprietary data from tradesmith that is being hidden/extracted in this description. It is the raw data entered by a given user such as number of shares and prices, from their own account. After requesting many times that tradesmith simply export the full precision in their own csv export option (2025 and pre), they obfuscated the data further (2026).
