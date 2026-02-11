@@ -6,7 +6,7 @@ The full-precision of the data is present but not easily accessible. It can be e
 
 
 ## Original Version (2025)
-In the past, all data in a portfolio was hidden in the static html, which could be exported in full by saving the web page html locally. tradesmith_scraper.py could be used to parse values numbers from fields like "sortvalue". After updates, these details are no longer in the same html files.
+In the past, all data in a portfolio was hidden in the static html, which could be exported in full by saving the web page html locally. tradesmith_scraper.py could be used to parse values from fields like "sortvalue". After updates, these details are no longer in the same html files.
 
 ## Scraping with Playwright (not recommended)
 Precise numbers are also available in the edit pages of each trade. So in theory, a user can navigate to each edit page and copy and paste the data from there. tradesmith_scraper_play.py helps automate this process. When run, it opens a browser where you can login to the website and select your portfolio and filters. After a time, it automatically navigates to each edit page of the portfolio in the browser and collects the desired info. This is very slow. It also relies on all datasets being present in the DOM before it starts the loop. This is not possible for large datasets.
